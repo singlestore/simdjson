@@ -123,11 +123,11 @@ using std::size_t;
 #endif
 
 // Is threading enabled?
-#if defined(_REENTRANT) || defined(_MT)
-#ifndef SIMDJSON_THREADS_ENABLED
-#define SIMDJSON_THREADS_ENABLED
-#endif
-#endif
+// #if defined(_REENTRANT) || defined(_MT)
+// #ifndef SIMDJSON_THREADS_ENABLED
+// #define SIMDJSON_THREADS_ENABLED
+// #endif
+// #endif
 
 // workaround for large stack sizes under -O0.
 // https://github.com/simdjson/simdjson/issues/691

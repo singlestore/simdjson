@@ -1,4 +1,4 @@
-/* auto-generated on 2024-06-11 14:08:20 -0400. Do not edit! */
+/* auto-generated on 2024-06-11 15:37:22 -0400. Do not edit! */
 /* including simdjson.cpp:  */
 /* begin file simdjson.cpp */
 #define SIMDJSON_SRC_SIMDJSON_CPP
@@ -196,11 +196,11 @@ using std::size_t;
 #endif
 
 // Is threading enabled?
-#if defined(_REENTRANT) || defined(_MT)
-#ifndef SIMDJSON_THREADS_ENABLED
-#define SIMDJSON_THREADS_ENABLED
-#endif
-#endif
+// #if defined(_REENTRANT) || defined(_MT)
+// #ifndef SIMDJSON_THREADS_ENABLED
+// #define SIMDJSON_THREADS_ENABLED
+// #endif
+// #endif
 
 // workaround for large stack sizes under -O0.
 // https://github.com/simdjson/simdjson/issues/691
